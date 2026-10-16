@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dceeff, #9f9aff);
+}
+
+h2 {
+    color: #123a78;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 25px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
